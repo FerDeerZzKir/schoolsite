@@ -1,18 +1,80 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="ru">
 <head>
-  <link rel="stylesheet" type="text/css" href="style.css">
-<title>Школьный сайт</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цитаты учителей</title>
+    <!-- Подключаем общий файл стилей -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
-  <button id="menu-button" onclick="toggleMenu()">Меню</button>
-<div id="dropdown-menu">
-  <a href="#">Пункт меню 1</a>
-  <a href="#">Пункт меню 2</a>
-  <a href="#">Пункт меню 3</a>
-</div>
-  <script src="script.js"></script>
-<h1><center> приходит мужик на радио его спрашивают * как ты с такой дикциеей попал на радио ? у тебя что блат ? он отвечает *почему блат ? сестла*  </center></h1><!--нужно написать что-то нормальное-->
+    <!-- Навигационная панель -->
+    <nav class="nav">
+        <!-- Логотип -->
+        <a href="index.html">
+            <img src="logo.png" alt="Логотип" class="nav-logo">
+        </a>
+        <!-- Навигационные ссылки -->
+        <ul class="nav-links">
+            <li>
+                <a href="index.html" class="nav-link">Главная</a>
+            </li>
+            <li>
+                <a href="quotes.html" class="nav-link active">Цитаты учителей</a>
+            </li>
+            <li>
+                <a href="schedule.html" class="nav-link">Расписание уроков</a>
+            </li>
+            <li>
+                <a href="contacts.html" class="nav-link">Контакты</a>
+            </li>
+        </ul>
+        <!-- Кнопка меню для мобильных устройств -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"></label>
+    </nav>
+    <!-- Секция цитат -->
+    <section class="quotes">
+        <!-- Заголовок -->
+        <h2 class="quotes-title">Цитаты учителей</h2>
+        <!-- Список цитат -->
+        <ul class="quotes-list">
+            <li class="quote-item">
+                <!-- Автор -->
+                <p class="quote-author">Учитель математики</p>
+                <!-- Текст -->
+                <p class="quote-text">"Математика - это не только наука, но и искусство. Надо уметь видеть красоту в формулах и доказательствах."</p>
+            </li>
+            <li class="quote-item">
+                <!-- Автор -->
+                <p class="quote-author">Учитель литературы</p>
+                <!-- Текст -->
+                <p class="quote-text">"Читать - значит жить. Чем больше вы читаете, тем больше вы познаете мир и себя."</p>
+            </li>
+            <li class="quote-item">
+                <!-- Автор -->
+                <p class="quote-author">Учитель истории</p>
+                <!-- Текст -->
+                <p class="quote-text">"История - это учитель жизни. Изучая прошлое, мы учимся на ошибках и достижениях наших предков."</p>
+            </li>
+            <li class="quote-item">
+                <!-- Автор -->
+                <p class="quote-author">Учитель физики</p>
+                <!-- Текст -->
+                <p class="quote-text">"Физика - это наука о природе и ее законах. Без физики мы не могли бы пользоваться многими изобретениями и технологиями."</p>
+            </li>
+            <li class="quote-item">
+                <!-- Автор -->
+                <p class="quote-author">Учитель английского языка</p>
+                <!-- Текст -->
+                <p class="quote-text">"Английский язык - это международный язык общения. Зная английский, вы можете путешествовать, учиться и работать в любой стране."</p>
+            </li>
+        </ul>
+    </section>
+    <!-- Подвал -->
+    <footer class="footer">
+        <!-- Текст -->
+        <p class="footer-text">© 2024 Школьный сайт. Все права защищены.</p>
+    </footer>
 </body>
 </html>
