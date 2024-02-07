@@ -1,4 +1,4 @@
 function toggleMenu() {
-  var dropdownMenu = document.getElementById("dropdown-menu");
-  dropdownMenu.classList.toggle("show");
+  var menu = document.getElementById("menu");
+  menu.classList.toggle("active");
 }
