@@ -9,9 +9,9 @@
 <body>
 
 <header>
-  <h1>Бol</h1>
-  <button onclick="toggleMenu()">Меню</button>
-  <nav id="menu" class="menu">
+  <h1>Школьный сайт</h1>
+  <button class="menu-button" onclick="toggleMenu()">Меню</button>
+  <nav class="menu" id="menu">
     <ul>
       <li><a href="index.html">Главная</a></li>
       <li><a href="schedule.html">Расписание</a></li>
@@ -22,9 +22,32 @@
   </nav>
 </header>
 
-<main>
-  <!-- Контент страницы -->
-</main>
+<section class="news">
+  <article>
+    <img src="photos/school_photo.jpg" alt="Новость 1">
+    <div class="news-content">
+      <h2>Новость 1</h2>
+      <p>Текст новости 1...</p>
+    </div>
+  </article>
+
+  <article>
+    <img style="object-position: bottom;" src="photos/scena.jpeg" alt="Новость 2">
+    <div class="news-content">
+      <h2>Новость 2</h2>
+      <p>Текст новости 2...</p>
+    </div>
+  </article>
+
+  <article>
+    <img style="object-position: bottom;" src="photos/dvij.jpg" alt="Новость 3">
+    <div class="news-content">
+      <h2>Новость 3</h2>
+      <p>Текст новости 3...</p>
+    </div>
+  </article>
+</section>
+
 
 <script src="script.js"></script>
 
